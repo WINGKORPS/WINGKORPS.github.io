@@ -1,0 +1,535 @@
+
+html {
+  margin:0;
+  padding:0;
+}
+
+.container-content {
+  background-color:black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+}
+
+.a-content {
+  width: 520px;
+  height: 480px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.img-content {
+
+  min-height: 100vh; 
+
+  height: 150%;
+
+  weight: 150%;
+
+  display: flex;
+
+  align-items: center;
+
+  background-size: cover;
+
+  background-position: center ;
+}
+
+.container-footer {
+
+    display: flex;
+  
+    justify-content:center;
+  
+    align-items: center;
+  
+    padding: 1,4rem 7%;
+  
+    background-color: rgb(1, 1, 1, 0.8 );
+  
+    border-bottom: 8px solid #030faa;
+  
+    position:fixed;
+  
+    top: 620;
+  
+    left: 0;
+  
+    right: 0;
+  
+    z-index: 100;
+}
+
+.h1-footer {
+   font-size:20px;
+   color:white;
+   display:flex;
+   justify-content:space-between;
+   align-items: center;
+
+
+}
+
+.body1 {
+background-color:black;
+}
+
+.teks1{
+color: white;
+text-decoration: none;
+transition: .5s ease-in-out;
+transition-delay: .1s ;
+border-radius: 8px;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.a-navbar2 {
+display: flex;
+justify-content:center;
+align-items: center;
+color:white;
+}
+
+.a-navbar1 {
+display: flex;
+justify-content: center;
+align-items: center;
+color:white;
+}
+
+.image1 {
+  height: 1350px;
+  weight:35px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 8px;
+}
+
+.warna1 {
+background-color:blue;
+list-style-type: none; 
+   padding:20px;
+   margin: 5px;
+   color:white;
+   font-size: 30px;
+}
+
+.warnabelakang{
+background-color: white;
+}
+
+/* Media Social */
+
+.media1 {
+color:rgb(31, 21, 21);
+display: flex;
+justify-content: center;
+align-items: center;
+font-size:x-large;
+}
+
+.navi1 {
+  padding: 0; margin: 0;
+  box-sizing: border-box;
+}
+
+.navi2 { 
+  align-items:end;
+  background-color: rgb(77, 77, 110);
+  display: flex;
+  overflow-x: scroll;
+  padding: 24px;
+  width: 300px;
+  height: 360px;
+  scroll-snap-type: x mandatory;
+  scroll-padding: 24px;
+  border-radius: 8px;
+  gap: 12px;
+  margin: 2rem auto;
+}
+
+.navi2 {
+  flex: 0 0 100%;
+  padding: 24px;
+  border-radius: 8px;
+  scroll-snap-align: start;
+}
+
+.seluruh:hover {
+  background:rgb(151, 151, 187);
+  display:flexbox;
+  justify-content:last baseline;
+  
+
+}
+
+/* Media Social Selesai */
+
+.finishing {
+   list-style-type: none; 
+   padding:20px;
+   margin: 15px;
+   color:white;
+   font-size: 30px;
+   text-decoration:solid;
+   transition: .5s ease-in-out;
+   transition-delay: .5s ;
+   border-radius: 8px;
+}
+
+.gambar3 {
+  background-color: aqua;
+  width:100%;
+  border-radius: 8px;
+   border-top:  3px;
+}
+
+
+/* Kedua */
+
+:root {
+  --primary:var(--primary)
+  --bg: #000;
+}
+  
+  * {
+    font-family: 'poppins', sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+    box-sizing: border-box;
+
+    outline: none;
+
+    border: none;
+
+    text-decoration: none;
+  
+  }
+  
+   body {
+    font-family :'poppins', sans-serif;
+
+    background-color: var(--bg);
+
+    color:white;
+
+  }
+  
+  /* Navbar */
+  
+  .awalan {
+
+    display: flex;
+  
+    justify-content: space-between;
+  
+    align-items: center;
+  
+    padding: 1,4rem 7%;
+  
+    background-color: rgb(1, 1, 1, 0.8 );
+  
+    border-bottom: 8px solid #030faa;
+  
+    position:fixed;
+  
+    top: 0;
+  
+    left: 0;
+  
+    right: 0;
+  
+    z-index: 9999;
+  
+  }
+  
+  .awalan .awalan-logo {
+
+    font-size: 3rem;
+
+    font-weight: 700;
+
+    color:white;
+
+    font-style: italic;
+  
+  }
+  
+  .awalan  .awalan-logo span {
+
+    color: blue;
+  
+  }
+  
+  .awalan .awalan1 a {
+    
+    color: white;
+  
+    display : inline-block;
+  
+    font-size: 18  ;
+  
+    margin: 0 2rem;
+  
+  }
+  
+  .awalan .awalan1 a:hover {
+
+  color: blue;
+  
+  }
+
+ .awalan .awalan1 a::after {
+
+  content: '';
+
+  display: block;
+
+  padding-bottom:0,5rem;
+
+  border-bottom: 0,1rem solid blue;
+
+  transform: scaleX(0);
+
+  transition: 0.2s linear;
+
+ }
+
+ .awalan .awalan1 a:hover:after {
+
+ transform:scaleX(0,5);
+
+ }
+
+
+ .awalan .extra a{
+
+color: white;
+
+margin: 0 0,5rem;
+
+ }
+
+ .awalan .extra a:hover {
+
+  color: blue;
+  
+   }
+
+   #hamburger-menu{
+
+   display: none;
+
+   }
+
+  /*Hero Section  */
+  .kontenn {
+
+    display: left;
+  
+    justify-content:space-between;
+  
+    align-items:center;
+  
+    padding: 15;
+
+    position:fixed;
+  
+    top: 200;
+  
+    left: 0;
+  
+    right: 0;
+  
+    z-index: 50;
+    
+
+  }
+
+
+  .konten {
+
+  font-style: italic; 
+
+   top: 50 ;
+
+   left: 0 ;
+
+   right: 0 ;
+
+   z-index: 200;
+
+
+  }
+
+
+   .konten1{
+     
+   font-family: sans-serif, 700;
+
+   font-size: medium;
+
+
+
+   }
+
+
+   /* Media Queries */
+
+   /* Laptop*/
+
+@media (max-width: 1366px) {
+
+  html {
+
+    font-size:75%;
+
+  }
+}
+
+
+   /* Tablet */
+
+   @media (max-width: 750px) {
+
+    html {
+
+      font-size:62,5%;
+
+    }
+
+    #hamburger-menu{
+
+    display: inline-block;
+
+     }
+
+     .awalan .awalan1 {
+
+     position:absolute;
+
+     top: 100;
+
+     right:-100;
+
+     background-color: white;
+
+     width : 30rem;
+
+     height: 100vh;
+
+     transition: 0,3s;
+
+     }
+
+   .awalan .awalan1 .active {
+
+   right: 0;
+
+   }
+
+   .awalan .awalan1 a{
+
+   color: var(--bg);
+
+   display: block;
+
+   margin: 1,5rem;
+
+   padding: 0,5rem;
+
+   font-size: 2rem;
+
+   }
+
+   .awalan .awalan1 a::after {
+
+   transform-origin: 0 0;
+
+   }
+
+   .awalan .awalan1 a:hover:after {
+
+    transform:scaleX(0,2);
+ 
+    }
+
+  }
+
+   /* Mobile Phone */
+
+   @media (max-width: 450px) {
+
+    html {
+    
+      font-size:55%;
+
+      }
+
+
+      #hamburger-menu{
+
+        display: inline-block;
+    
+         }
+    
+         .awalan .awalan1 {
+    
+         position:absolute;
+    
+         top: 100;
+    
+         right:-100;
+    
+         background-color: white;
+    
+         width : 30rem;
+    
+         height: 100vh;
+    
+         transition: 0,3s;
+    
+         }
+    
+       .awalan .awalan1 .active {
+    
+       right: 0;
+    
+       }
+    
+       .awalan .awalan1 a{
+    
+       color: var(--bg);
+    
+       display: block;
+    
+       margin: 1,5rem;
+    
+       padding: 0,5rem;
+    
+       font-size: 2rem;
+    
+       }
+    
+       .awalan .awalan1 a::after {
+    
+       transform-origin: 0 0;
+    
+       }
+    
+       .awalan .awalan1 a:hover:after {
+    
+        transform:scaleX(0,2);
+     
+        }
+
+
+    }
